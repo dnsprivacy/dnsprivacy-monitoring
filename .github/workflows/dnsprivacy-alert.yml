@@ -1,0 +1,55 @@
+# Run getdns_server_mon
+name: dnsprivacy-alert
+
+on:
+   workflow_dispatch:
+   schedule:
+     - cron: "42 4,16 * * *"
+
+env:
+  # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
+  BUILD_TYPE: Release
+
+jobs:
+  dnsprivacy_alert:
+    runs-on: ubuntu-22.04
+    continue-on-error: true
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+
+    - name: Install OpenSSL
+      run: sudo apt-get install -y libssl-dev
+
+    - name: Setup WARP
+      uses: fscarmen/warp-on-actions@v1.1
+
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download build directory
+      uses: actions/download-artifact@v4
+      with:
+        name: build_dir
+        run-id:  10177802667
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set permissions
+      run: |
+           chmod u+x  ./getdns_server_mon
+           chmod u+x  ./alert.sh
+
+    - name: Run probe
+      run: ./alert.sh
+
+    - name: Read results file
+      id: results
+      uses: juliangruber/read-file-action@v1
+      with:
+        path: results.md
+
+    - name: Echo results file
+      run: echo "${{ steps.results.outputs.content }}" >> $GITHUB_STEP_SUMMARY

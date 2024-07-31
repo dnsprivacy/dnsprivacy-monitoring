@@ -1,0 +1,59 @@
+# Run getdns_server_mon
+name: dnsprivacy-monitoring
+
+on:
+   workflow_dispatch:
+   schedule:
+     - cron: "37 2 * * *"
+
+env:
+  # Customize the CMake build type here (Release, Debug, RelWithDebInfo, etc.)
+  BUILD_TYPE: Release
+
+jobs:
+  dnsprivacy_monitoring:
+    runs-on: ubuntu-22.04
+
+    steps:
+
+    - name: Install OpenSSL
+      run: sudo apt-get install -y libssl-dev
+
+    - name: Setup WARP
+      uses: fscarmen/warp-on-actions@v1.1
+
+    - name: Checkout cide
+      uses: actions/checkout@v4
+
+    - name: Download build directory
+      uses: actions/download-artifact@v4
+      with:
+        name: build_dir
+        run-id:  10177802667
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set permissions
+      run: |
+           chmod u+x  ./getdns_server_mon
+           chmod u+x  ./probe.sh
+
+    - name: Run probe
+      run: ./probe.sh
+
+    - name: Read results file
+      id: results
+      uses: juliangruber/read-file-action@v1
+      with:
+        path: results.md
+
+    - name: Echo results file
+      run: echo "${{ steps.results.outputs.content }}" >> $GITHUB_STEP_SUMMARY
+
+    - name: Echo results to README
+      run: echo "${{ steps.results.outputs.content }}" >> RESULTS.md
+
+      # Commit all changed files back to the repository
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: dnsprivacy-monitoring
+        file_pattern: RESULTS.md
