@@ -1,4 +1,4 @@
-This repository runs period monitoring of the Public and Test servers listed on [dnsprivacy.org](https://dnsprivacy.org).
+This repository runs periodic monitoring of the Public and Test servers listed on [dnsprivacy.org](https://dnsprivacy.org).
 
 See [RESULTS.md](https://github.com/dnsprivacy/dnsprivacy-monitoring/blob/main/RESULTS.md) for the output of the latest monitoring.
 
