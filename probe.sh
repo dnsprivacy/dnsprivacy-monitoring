@@ -35,10 +35,11 @@ declare -a commands=(
 "OOOR"
 )
 
-echo "## dnsprivaycy.org monitoring results" > results.md
-
-echo "Latest run at: " date >> results.md
-echo " See [https://github.com/dnsprivacy/dnsprivacy-monitoring/actions/workflows/dnsprivacy-monitoring.yml](the output of the latest workflow for more details)"  >> results.md
+echo "## dnsprivacy.org monitoring results" > results.md
+echo " " >> results.md
+echo "Latest run at: " $(date) >> results.md
+echo " " >> results.md
+echo "See [the output of the latest workflow for more details](https://github.com/dnsprivacy/dnsprivacy-monitoring/actions/workflows/dnsprivacy-monitoring.yml)"  >> results.md
 echo "" >> results.md
 
 
