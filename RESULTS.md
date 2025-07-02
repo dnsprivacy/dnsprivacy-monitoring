@@ -1,6 +1,6 @@
 ## dnsprivacy.org monitoring results
  
-Latest run at:  Tue Jul 1 03:49:14 UTC 2025
+Latest run at:  Wed Jul 2 03:39:40 UTC 2025
  
 See [the output of the latest workflow for more details](https://github.com/dnsprivacy/dnsprivacy-monitoring/actions/workflows/dnsprivacy-monitoring.yml)
 
@@ -10,8 +10,8 @@ See [the output of the latest workflow for more details](https://github.com/dnsp
 | getdnsapi.net  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | getdnsapi.net (port 443)  (v4) |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | getdnsapi.net (port 443)  (v6) |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
-| dns.quad9.net  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
-| dns.quad9.net  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
+| dns.quad9.net  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
+| dns.quad9.net  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
 | 1dot1dot1dot1.cloudflare-dns.com  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | dns.google  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | dns.google  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
@@ -19,9 +19,9 @@ See [the output of the latest workflow for more details](https://github.com/dnsp
 | dns-unfiltered.adguard.com  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | unicast.censurfridns.dk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
 | unicast.censurfridns.dk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
-| dot1.appliedprivacy.net  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
-| dot1.appliedprivacy.net  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
-| dnspub.restena.lu  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
+| dot1.appliedprivacy.net  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
+| dot1.appliedprivacy.net  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
+| dnspub.restena.lu  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
 | dnspub.restena.lu  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
 | dns.neutopia.org  (v4) |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |
 | dns.neutopia.org  (v6) |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |
