@@ -7,6 +7,7 @@ declare -a servers=(
 "dns.quad9.net"
 "1dot1dot1dot1.cloudflare-dns.com"
 "dns.google"
+"unfiltered.joindns4.eu"
 "dns-unfiltered.adguard.com"
 "unicast.censurfridns.dk"
 "dot1.appliedprivacy.net"
