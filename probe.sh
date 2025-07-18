@@ -12,11 +12,9 @@ declare -a servers=(
 "unicast.censurfridns.dk"
 "dot1.appliedprivacy.net"
 "dnspub.restena.lu"
-"dns.neutopia.org"
 "dnsotls.lab.nic.cl"
 "ibksturm.synology.me"
 "fdns1.dismail.de"
-"dot-de.blahdns.com"
 "ns0.fdn.fr"
 )
   
