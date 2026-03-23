@@ -53,7 +53,7 @@ jobs:
       run: echo "${{ steps.results.outputs.content }}" > RESULTS.md
 
       # Commit all changed files back to the repository
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: dnsprivacy-monitoring
         file_pattern: RESULTS.md
