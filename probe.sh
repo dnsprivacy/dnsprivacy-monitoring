@@ -24,7 +24,7 @@ declare -a commands=(
 "Strict Name"
 "Strict Name 443"
 "Cert 0"
-"Cert 14"
+"Cert 5"
 "QNAME min"
 "RTT 250"
 "DNSSEC"
@@ -42,7 +42,7 @@ echo "See [the output of the latest workflow for more details](https://github.co
 echo "" >> results.md
 
 
-echo "|Server and IP version|TLS|TLS 443| Strict Name| Strict Name 443| Cert 0| Cert 14| QNAME min| RTT 250| DNSSEC| Keepalive| Padding| TLS 1.3| OOOR |" >> results.md
+echo "|Server and IP version|TLS|TLS 443| Strict Name| Strict Name 443| Cert 0| Cert 5| QNAME min| RTT 250| DNSSEC| Keepalive| Padding| TLS 1.3| OOOR |" >> results.md
 echo "| ---  | --- |---  | ---         |---            | ---   |---     | ---      |---     | ---    |---      | ---    |---     | ---  |" >> results.md
 
 for server in "${servers[@]}"; do
@@ -88,7 +88,7 @@ for server in "${servers[@]}"; do
         Strict\ Name)	CMD="tls-auth"; ARGS="--strict-usage-profile"; ADDR="${ADDR}~${auth_server}";;
         Strict\ Name\ 443)	CMD="tls-auth"; ARGS="--strict-usage-profile"; ADDR="${ADDR}~${auth_server}#443";;
         Cert\ 0)		CMD="tls-cert-valid 0,0";;
-        Cert\ 14)		CMD="tls-cert-valid 14,14";;
+        Cert\ 5)		CMD="tls-cert-valid 5,5";;
         QNAME\ min)		CMD="qname-min";;
         RTT\ 250)		CMD="rtt 250,250";;
         DNSSEC)			CMD="dnssec-validate";;
@@ -120,7 +120,7 @@ echo " * **TLS 443** Does the server answer DNS queries over TLS on port 443 wit
 echo " * **Strict Name** Does the server pass Strict authentication using the authentication domain name only?" >> results.md
 echo " * **Strict Name 443** Does the server pass Strict authentication using the authentication domain name only on 443 (some operators require an SNI on 443 to defend against attacks)?" >> results.md
 echo " * **Cert 0** Are there 0 days or less to certificate expiry?" >> results.md
-echo " * **Cert 14** Are there 14 or fewer days to certificate expiry?" >> results.md
+echo " * **Cert 5** Are there 5 or fewer days to certificate expiry?" >> results.md
 echo " * **QNAME min** Is the server configured to use QNAME minimisation [RFC7816]?" >> results.md
 echo " * **RTT 250** Is a simple query round trip time from the probe location < 250ms?" >> results.md
 echo " * **DNSSEC** Is the server doing DNSSEC validation (i.e. returning SERVFAIL for bogus domains)?" >> results.md
