@@ -42,7 +42,6 @@ jobs:
            chmod u+x  ./alert.sh
 
     - name: Run probe
-      continue-on-error: true
       run: ./alert.sh
 
     - name: Read results file
