@@ -13,7 +13,6 @@ declare -a servers=(
 "dot1.appliedprivacy.net"
 "dnspub.restena.lu"
 "ibksturm.synology.me"
-"fdns1.dismail.de"
 "ns0.fdn.fr"
 )
   
