@@ -1,6 +1,6 @@
 ## dnsprivacy.org monitoring results
  
-Latest run at:  Fri Nov 13 09:55:13 UTC 2026
+Latest run at:  Sat Nov 14 09:20:19 UTC 2026
  
 See [the output of the latest workflow for more details](https://github.com/dnsprivacy/dnsprivacy-monitoring/actions/workflows/dnsprivacy-monitoring.yml)
 
@@ -17,14 +17,14 @@ See [the output of the latest workflow for more details](https://github.com/dnsp
 | dns.google  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | unfiltered.joindns4.eu  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | unfiltered.joindns4.eu  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
-| dns-unfiltered.adguard.com  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
+| dns-unfiltered.adguard.com  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | dns-unfiltered.adguard.com  (v6) |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |  :x:  |
 | unicast.censurfridns.dk  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
 | unicast.censurfridns.dk  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
-| dot1.appliedprivacy.net  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
+| dot1.appliedprivacy.net  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | dot1.appliedprivacy.net  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |
 | dnspub.restena.lu  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
-| dnspub.restena.lu  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
+| dnspub.restena.lu  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |
 | ibksturm.synology.me  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
 | ibksturm.synology.me  (v6) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |
 | ns0.fdn.fr  (v4) |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :white_check_mark:  |  :white_check_mark:  |  :x:  |  :white_check_mark:  |  :x:  |  :x:  |  :white_check_mark:  |  :x:  |
